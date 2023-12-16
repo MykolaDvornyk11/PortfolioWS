@@ -1,3 +1,33 @@
 body {
     font-family: 'Roboto', sans-serif;
 }
+.introhead {
+width: auto;
+height: 80px;
+flex-shrink: 0;
+}
+.introlister {
+    list-style: none;
+    display: inline-flex;
+    gap: 50px;
+}
+.difli {
+    display: flex;
+    margin-left: 369px;
+}
+.sector {
+display: flex;
+width: 1600px;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 94px;
+
+}
+.butlister {
+    display: flex;
+    list-style: none;
+    align-self: center;
+    flex-direction: row;
+    gap: 8px;
+}
